@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Foundora",
+    "slug": "foundertrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Number=1.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foundertrack"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Number=1.png",
+        "backgroundColor": "#121214"
+      },
+      "package": "com.foundertrack"
+    },
+    "web": {
+      "favicon": "./assets/images/Number=1.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/Number=1.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#121214"
+        }
+      ]
+    ]
+  }
+}

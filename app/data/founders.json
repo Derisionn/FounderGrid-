@@ -1,0 +1,1182 @@
+{
+  "founders": [
+    {
+      "id": "mark-zuckerberg",
+      "profile": {
+        "name": "Mark Zuckerberg",
+        "title": "Co-Founder & CEO",
+        "company": "Meta (Facebook)",
+        "companies": [
+          "Facebook",
+          "Meta"
+        ],
+        "tagline": "Built Facebook from a college dorm to a global empire",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+        "netWorth": "$180B+",
+        "totalFundsRaised": "$2.3B",
+        "usersServed": "3.98B+",
+        "followersInspired": "1.5M+",
+        "avatarInitials": "MZ",
+        "accentColor": "#1877F2",
+        "bio": "Mark Zuckerberg began coding as a child and built his first social network at 19 in a Harvard dorm room. What started as a college project became the most powerful social media company in history — connecting nearly 4 billion people worldwide.",
+        "inspiration": "\"The biggest risk is not taking any risk. In a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks.\"",
+        "quotes": [
+          "Move fast and break things.",
+          "The biggest risk is not taking any risk.",
+          "People don't care about what you say, they care about what you build.",
+          "Move fast with stable infrastructure.",
+          "The question I ask myself almost every day is — am I doing the most important thing I could be doing?"
+        ]
+      },
+      "timeline": [
+        {
+          "id": "mz-1984-birth",
+          "year": 1984,
+          "age": 0,
+          "month": "May",
+          "title": "The Boy Who Would Code",
+          "description": "Mark Elliot Zuckerberg is born on May 14 in White Plains, New York. His father, a dentist, teaches him BASIC programming on an Atari, igniting a lifelong passion for technology.",
+          "story": "Born in White Plains, New York, Mark was introduced to coding by his father at an early age.",
+          "insight": "Every legend starts somewhere. The beginning is just the beginning.",
+          "icon": "👶",
+          "tag": "Origin",
+          "category": "personal",
+          "tags": [
+            "childhood",
+            "programming",
+            "origin"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "mz-1996-zucknet",
+          "year": 1996,
+          "age": 12,
+          "month": "January",
+          "title": "ZuckNet — The 12-Year-Old Developer",
+          "description": "At just 12 years old, Zuckerberg creates \"ZuckNet\" — a primitive messaging system using Atari BASIC that lets his father's dental office communicate with their home computer. His first real software product.",
+          "story": "Created 'ZuckNet' to help his family communicate across rooms — his very first product.",
+          "insight": "Start building early. Even small tools matter — they prove you can ship.",
+          "icon": "💻",
+          "tag": "Early Passion",
+          "category": "product",
+          "tags": [
+            "first product",
+            "programming",
+            "childhood"
+          ],
+          "stats": [
+            {
+              "label": "Age",
+              "value": "12 yrs"
+            }
+          ],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "mz-2000-synapse",
+          "year": 2000,
+          "age": 16,
+          "month": "March",
+          "title": "Synapse Media Player — Microsoft Comes Knocking",
+          "description": "Zuckerberg and a friend build Synapse, an AI-powered music player that learns your listening habits. AOL and Microsoft offer to acquire it and hire him. He turns them down — at age 16.",
+          "story": "Built an AI music player at 16. Microsoft offered to buy it — he said no.",
+          "insight": "Recognize your value early. Not every offer deserves a yes.",
+          "icon": "🎵",
+          "tag": "Early Genius",
+          "category": "product",
+          "tags": [
+            "AI",
+            "music",
+            "early genius",
+            "rejected offers"
+          ],
+          "stats": [
+            {
+              "label": "Age",
+              "value": "16 yrs"
+            },
+            {
+              "label": "Offer",
+              "value": "$1M+"
+            }
+          ],
+          "quote": "\"He literally said no to Microsoft at 16. That should tell you everything.\" — Former classmate",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2003-facemash",
+          "year": 2003,
+          "age": 19,
+          "month": "January",
+          "title": "CourseMatch & Facemash — Harvard Goes Wild",
+          "description": "Within his first months at Harvard, Zuckerberg builds CourseMatch and Facemash (rating student photos). Facemash gets 450 visitors and 22,000 photo views in 4 hours before Harvard shuts it down.",
+          "story": "Created a controversial site comparing student photos — it went viral before Harvard shut it down.",
+          "insight": "Fail fast, learn faster. Controversy is often the first sign of real product-market fit.",
+          "icon": "⚠️",
+          "tag": "Failure",
+          "category": "product",
+          "tags": [
+            "Harvard",
+            "viral",
+            "controversy"
+          ],
+          "stats": [
+            {
+              "label": "Photo Views",
+              "value": "22,000"
+            },
+            {
+              "label": "Time Live",
+              "value": "4 hrs"
+            }
+          ],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "mz-2004-facebook-launch",
+          "year": 2004,
+          "age": 19,
+          "month": "February",
+          "title": "TheFacebook.com — The Dorm Room Revolution",
+          "description": "On February 4, 2004, Zuckerberg launches TheFacebook.com from his Harvard dorm room with co-founders Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes. Within 24 hours, 1,200 Harvard students sign up.",
+          "story": "Started Facebook from his dorm room with a small team. 1,200 sign-ups in 24 hours.",
+          "insight": "Start small, think big. The best products begin as small solutions to real problems.",
+          "icon": "🚀",
+          "tag": "Breakthrough",
+          "category": "milestone",
+          "tags": [
+            "launch",
+            "founding",
+            "dorm room"
+          ],
+          "stats": [
+            {
+              "label": "Day-1 Signups",
+              "value": "1,200"
+            },
+            {
+              "label": "Investment",
+              "value": "$19,000"
+            },
+            {
+              "label": "Age",
+              "value": "19 yrs"
+            }
+          ],
+          "quote": "\"I had to do it. It was just something I had to do.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2004-thiel-investment",
+          "year": 2004,
+          "age": 20,
+          "month": "June",
+          "title": "Peter Thiel's $500K Bet — Drops Out of Harvard",
+          "description": "PayPal co-founder Peter Thiel invests $500,000 for a 10.2% stake — the first outside investment in Facebook. Zuckerberg drops out of Harvard and moves to Palo Alto. The Silicon Valley chapter begins.",
+          "story": "Left college to fully focus on Facebook. Got $500K from Peter Thiel and never looked back.",
+          "insight": "Conviction beats comfort. When you believe in your mission, bet everything on it.",
+          "icon": "🔥",
+          "tag": "Bold Decision",
+          "category": "funding",
+          "tags": [
+            "investment",
+            "dropout",
+            "Peter Thiel"
+          ],
+          "stats": [
+            {
+              "label": "Seed Round",
+              "value": "$500K"
+            },
+            {
+              "label": "Valuation",
+              "value": "$4.9M"
+            }
+          ],
+          "quote": "\"He was brilliant and relentless. I've never seen anyone like him.\" — Peter Thiel",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2006-open-to-all",
+          "year": 2006,
+          "age": 22,
+          "month": "September",
+          "title": "Facebook Opens to Everyone — Rejects $1B",
+          "description": "Facebook removes the college email requirement and opens to everyone 13+. The platform explodes to 12 million users by year end. Yahoo offers $1 billion to acquire Facebook — Zuckerberg refuses.",
+          "story": "Opened Facebook to the world and turned down Yahoo's $1 billion acquisition offer.",
+          "insight": "Don't sell your vision before it's fully realized. $1B was nothing compared to what was coming.",
+          "icon": "🌐",
+          "tag": "Decision",
+          "category": "milestone",
+          "tags": [
+            "growth",
+            "expansion",
+            "rejected acquisition"
+          ],
+          "stats": [
+            {
+              "label": "Users",
+              "value": "12M"
+            },
+            {
+              "label": "Yahoo Offer",
+              "value": "$1B"
+            }
+          ],
+          "quote": "\"A billion dollars isn't cool. You know what's cool? A billion users.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2007-microsoft",
+          "year": 2007,
+          "age": 23,
+          "month": "October",
+          "title": "Microsoft Invests — Facebook Valued at $15B",
+          "description": "Microsoft invests $240 million for a 1.6% stake, valuing Facebook at $15 billion. At 23, Zuckerberg becomes one of the youngest billionaires in history.",
+          "story": "Microsoft valued Facebook at $15B — Mark became one of the youngest billionaires at 23.",
+          "insight": "Don't sell early if you see the bigger vision. Patience at scale is a superpower.",
+          "icon": "💰",
+          "tag": "Milestone",
+          "category": "funding",
+          "tags": [
+            "valuation",
+            "billionaire",
+            "Microsoft"
+          ],
+          "stats": [
+            {
+              "label": "Valuation",
+              "value": "$15B"
+            },
+            {
+              "label": "Investment",
+              "value": "$240M"
+            },
+            {
+              "label": "Age",
+              "value": "23 yrs"
+            }
+          ],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "mz-2010-500m",
+          "year": 2010,
+          "age": 26,
+          "month": "October",
+          "title": "500M Users & Person of the Year",
+          "description": "The Hollywood film \"The Social Network\" releases to critical acclaim. Facebook hits 500 million users. Time magazine names Mark Zuckerberg \"Person of the Year.\" Facebook is now worth an estimated $40 billion.",
+          "story": "Facebook hit 500M users. Time named Mark Person of the Year. A cultural phenomenon.",
+          "insight": "Scale comes after survival. Every setback before this moment was a lesson.",
+          "icon": "📈",
+          "tag": "Milestone",
+          "category": "milestone",
+          "tags": [
+            "500M users",
+            "Person of the Year",
+            "cultural impact"
+          ],
+          "stats": [
+            {
+              "label": "Users",
+              "value": "500M"
+            },
+            {
+              "label": "Valuation",
+              "value": "$40B"
+            }
+          ],
+          "quote": "\"I know it sounds crazy, but I feel terrible that we have only 500 million people.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2012-ipo",
+          "year": 2012,
+          "age": 28,
+          "month": "May",
+          "title": "The $104 Billion IPO — Wall Street Moment",
+          "description": "Facebook goes public on May 18, 2012 at $38/share, raising $16 billion in the 3rd largest IPO in U.S. history. Zuckerberg, 28, wears his signature hoodie to the NASDAQ opening.",
+          "story": "Took Facebook public in a $104B IPO — wore his hoodie to Wall Street and didn't care.",
+          "insight": "Stay true to yourself even at the biggest moments. Authenticity is a competitive advantage.",
+          "icon": "📊",
+          "tag": "Milestone",
+          "category": "milestone",
+          "tags": [
+            "IPO",
+            "NASDAQ",
+            "Wall Street",
+            "hoodie"
+          ],
+          "stats": [
+            {
+              "label": "IPO Raise",
+              "value": "$16B"
+            },
+            {
+              "label": "Valuation",
+              "value": "$104B"
+            },
+            {
+              "label": "Users",
+              "value": "901M"
+            }
+          ],
+          "quote": "\"Our mission is to make the world more open and connected.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2012-instagram",
+          "year": 2012,
+          "age": 28,
+          "month": "April",
+          "title": "Instagram Acquired for $1 Billion",
+          "description": "Facebook acquires Instagram — a 13-person company with zero revenue — for $1 billion. Critics mock the price. Instagram grows to become worth $100B+, proving Zuckerberg's vision right.",
+          "story": "Bought Instagram for $1B — a 13-person team with no revenue. Critics laughed. History didn't.",
+          "insight": "Spot future trends early. Bet on the trajectory, not the current state.",
+          "icon": "📱",
+          "tag": "Smart Bet",
+          "category": "acquisition",
+          "tags": [
+            "Instagram",
+            "vision",
+            "billion-dollar bet"
+          ],
+          "stats": [
+            {
+              "label": "Price",
+              "value": "$1B"
+            },
+            {
+              "label": "Instagram Team",
+              "value": "13 people"
+            }
+          ],
+          "quote": "\"The best acquisitions are ones where you're primarily acquiring something, not for the revenue.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2014-whatsapp",
+          "year": 2014,
+          "age": 30,
+          "month": "February",
+          "title": "WhatsApp — $19 Billion Mega-Deal",
+          "description": "Facebook acquires WhatsApp for a staggering $19 billion — the largest tech acquisition ever at the time. WhatsApp had 450 million users and 55 employees.",
+          "story": "Bought WhatsApp for $19B to dominate global messaging. Own the ecosystem.",
+          "insight": "Own the ecosystem. Control the communication layer and you control the future.",
+          "icon": "🌍",
+          "tag": "Expansion",
+          "category": "acquisition",
+          "tags": [
+            "WhatsApp",
+            "messaging",
+            "record acquisition"
+          ],
+          "stats": [
+            {
+              "label": "Price",
+              "value": "$19B"
+            },
+            {
+              "label": "WhatsApp Users",
+              "value": "450M"
+            },
+            {
+              "label": "Employees",
+              "value": "55"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2018-congress",
+          "year": 2018,
+          "age": 34,
+          "month": "April",
+          "title": "The Congressional Hearing — Darkest Hour",
+          "description": "Amid the Cambridge Analytica scandal, Zuckerberg testifies before the U.S. Senate for 10 hours. Facebook's stock drops 24%, losing $120B in a single day. He faces the biggest test of his career — and rebuilds.",
+          "story": "Testified before Congress for 10 hours. Stock dropped 24%. Rebuilt anyway.",
+          "insight": "Success brings responsibility. Leadership means owning your mistakes publicly.",
+          "icon": "⚖️",
+          "tag": "Challenge",
+          "category": "setback",
+          "tags": [
+            "scandal",
+            "congress",
+            "crisis",
+            "resilience"
+          ],
+          "stats": [
+            {
+              "label": "Stock Drop",
+              "value": "24%"
+            },
+            {
+              "label": "Value Lost",
+              "value": "$120B"
+            },
+            {
+              "label": "Hours Testifying",
+              "value": "10 hrs"
+            }
+          ],
+          "quote": "\"This was my mistake, and I'm sorry. I started Facebook, I run it, and I'm responsible.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2021-meta",
+          "year": 2021,
+          "age": 37,
+          "month": "October",
+          "title": "Facebook Becomes Meta — The Metaverse Bet",
+          "description": "Zuckerberg rebrands Facebook to Meta, announcing a pivot to the metaverse. He commits billions to virtual reality with Quest headsets and Horizon Worlds. The boldest, most controversial pivot in tech history.",
+          "story": "Rebranded to Meta and bet everything on the metaverse — the most controversial pivot in tech.",
+          "insight": "Reinvent or become irrelevant. The biggest companies are always building the next chapter.",
+          "icon": "🧠",
+          "tag": "Vision",
+          "category": "milestone",
+          "tags": [
+            "metaverse",
+            "rebranding",
+            "VR",
+            "bold bet"
+          ],
+          "stats": [
+            {
+              "label": "VR Investment",
+              "value": "$10B+/yr"
+            },
+            {
+              "label": "Users (Family)",
+              "value": "3.5B"
+            }
+          ],
+          "quote": "\"The metaverse is the next chapter for the internet — and for our company.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2023-threads",
+          "year": 2023,
+          "age": 39,
+          "month": "July",
+          "title": "Threads — 100M Users in 5 Days",
+          "description": "Meta launches Threads as a Twitter alternative. It reaches 100 million users in just 5 days — the fastest app launch in history. Zuckerberg proves once again he can execute at extraordinary speed.",
+          "story": "Launched Threads and got 100M users in 5 days — the fastest app launch in history.",
+          "insight": "Execution is the ultimate competitive advantage. When you're ready, move at full speed.",
+          "icon": "🐦",
+          "tag": "Comeback",
+          "category": "product",
+          "tags": [
+            "Threads",
+            "fastest launch",
+            "Twitter rival"
+          ],
+          "stats": [
+            {
+              "label": "Users in 5 Days",
+              "value": "100M"
+            },
+            {
+              "label": "Record",
+              "value": "#1 Fastest App"
+            }
+          ],
+          "quote": "\"It's early days, but the reception so far has been way beyond what we expected.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "mz-2024-llama",
+          "year": 2024,
+          "age": 40,
+          "month": "April",
+          "title": "Llama 3 & Open-Source AI — The Next Frontier",
+          "description": "Meta releases Llama 3, its open-source large language model, taking on OpenAI and Google. Meta AI assistant reaches 500M users. Zuckerberg bets the entire company on open-source AI supremacy.",
+          "story": "Released Llama 3 and bet the company on open-source AI to challenge OpenAI and Google.",
+          "insight": "The next frontier is always worth building toward. Open-source AI could democratize intelligence itself.",
+          "icon": "🤖",
+          "tag": "Innovation",
+          "category": "product",
+          "tags": [
+            "AI",
+            "Llama",
+            "open source",
+            "future"
+          ],
+          "stats": [
+            {
+              "label": "Meta AI Users",
+              "value": "500M"
+            },
+            {
+              "label": "AI Investment",
+              "value": "$35B"
+            }
+          ],
+          "quote": "\"Open source AI is the path forward. I want to see a world where everyone has access to powerful AI tools.\"",
+          "isHighlight": true
+        }
+      ]
+    },
+    {
+      "id": "elon-musk",
+      "profile": {
+        "name": "Elon Musk",
+        "title": "Founder & CEO",
+        "company": "Tesla, SpaceX, X",
+        "companies": [
+          "Zip2",
+          "PayPal",
+          "SpaceX",
+          "Tesla",
+          "X"
+        ],
+        "tagline": "From South Africa to Mars — the most ambitious builder alive",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/440px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+        "netWorth": "$230B+",
+        "totalFundsRaised": "$7.5B+",
+        "usersServed": "500M+",
+        "followersInspired": "2.5M+",
+        "avatarInitials": "EM",
+        "accentColor": "#E31937",
+        "bio": "Elon Musk left South Africa at 17 with $2,000 in his pocket. He built and sold two companies before 30, then bet everything on electric cars and rockets — industries experts said were impossible. Today he is the world's wealthiest person.",
+        "inspiration": "\"When something is important enough, you do it even if the odds are not in your favor.\"",
+        "quotes": [
+          "When something is important enough, you do it even if the odds are not in your favor.",
+          "I could either watch it happen or be a part of it.",
+          "Failure is an option here. If things are not failing, you are not innovating enough.",
+          "The first step is to establish that something is possible; then probability will occur.",
+          "Work like hell. If you do the simple math, if somebody else is working 50 hours and you're working 100, you'll get twice as much done."
+        ]
+      },
+      "timeline": [
+        {
+          "id": "em-1971-birth",
+          "year": 1971,
+          "age": 0,
+          "month": "June",
+          "title": "Born in Pretoria, South Africa",
+          "description": "Elon Reeve Musk is born on June 28, 1971 in Pretoria, South Africa. From a young age he is drawn to science fiction, philosophy, and computers.",
+          "story": "Born in Pretoria, South Africa — drawn to science fiction and computers from day one.",
+          "insight": "Where you start doesn't define where you end. Obsession is the real origin story.",
+          "icon": "👶",
+          "tag": "Origin",
+          "category": "personal",
+          "tags": [
+            "childhood",
+            "origin",
+            "South Africa"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "em-1983-blastar",
+          "year": 1983,
+          "age": 12,
+          "month": "January",
+          "title": "Sells His First Game at Age 12",
+          "description": "At 12, Musk writes Blastar — a space-themed video game in BASIC — and sells the code to a computer magazine for $500. His first earned income from software.",
+          "story": "Wrote a space video game in BASIC at age 12 and sold it to a magazine for $500.",
+          "insight": "Monetize your curiosity early. Every earned dollar at 12 teaches you more than a decade in school.",
+          "icon": "🎮",
+          "tag": "Early Genius",
+          "category": "product",
+          "tags": [
+            "first product",
+            "game dev",
+            "childhood"
+          ],
+          "stats": [
+            {
+              "label": "Age",
+              "value": "12 yrs"
+            },
+            {
+              "label": "Earned",
+              "value": "$500"
+            }
+          ],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "em-1995-zip2",
+          "year": 1995,
+          "age": 24,
+          "month": "November",
+          "title": "Drops PhD to Found Zip2",
+          "description": "Musk drops out of Stanford's PhD program after just 2 days to start Zip2, an online city guide software company, with his brother Kimbal. He sleeps in the office to save money.",
+          "story": "Quit Stanford's PhD after 2 days to start Zip2. Slept in the office to save money.",
+          "insight": "Opportunity cost is real. Sometimes the smartest move is to stop preparing and start building.",
+          "icon": "💡",
+          "tag": "Bold Decision",
+          "category": "milestone",
+          "tags": [
+            "dropout",
+            "founding",
+            "hustle"
+          ],
+          "stats": [
+            {
+              "label": "Days at Stanford",
+              "value": "2 days"
+            }
+          ],
+          "quote": "\"I couldn't stand the idea of not being part of the internet. It was like watching the Super Bowl and being in the stands.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "em-1999-zip2-sold",
+          "year": 1999,
+          "age": 27,
+          "month": "February",
+          "title": "Compaq Buys Zip2 for $307 Million",
+          "description": "Compaq acquires Zip2 for $307 million in cash. Musk personally earns $22 million at age 27. He immediately bets most of it on his next venture.",
+          "story": "Sold Zip2 to Compaq for $307M, personally earning $22M — then immediately bet it all on the next idea.",
+          "insight": "Your first exit funds your biggest bet. Don't sit on your winnings — reinvest in your vision.",
+          "icon": "💵",
+          "tag": "First Win",
+          "category": "acquisition",
+          "tags": [
+            "exit",
+            "first win",
+            "Compaq"
+          ],
+          "stats": [
+            {
+              "label": "Sale Price",
+              "value": "$307M"
+            },
+            {
+              "label": "Musk's Cut",
+              "value": "$22M"
+            },
+            {
+              "label": "Age",
+              "value": "27 yrs"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "em-1999-xcom",
+          "year": 1999,
+          "age": 28,
+          "month": "March",
+          "title": "X.com — Online Banking Disrupted",
+          "description": "Musk founds X.com, one of the first online financial services companies in the world, investing $10M of his own money. It later merges with Confinity to become PayPal.",
+          "story": "Founded X.com — one of the first online banks — and put $10M of his own money in.",
+          "insight": "Disruption is repeatable if you commit fully. Serial builders build serial winners.",
+          "icon": "🏦",
+          "tag": "Innovation",
+          "category": "milestone",
+          "tags": [
+            "fintech",
+            "banking",
+            "X.com"
+          ],
+          "stats": [
+            {
+              "label": "Personal Investment",
+              "value": "$10M"
+            }
+          ],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "em-2002-paypal-sold",
+          "year": 2002,
+          "age": 31,
+          "month": "October",
+          "title": "eBay Acquires PayPal for $1.5 Billion",
+          "description": "eBay acquires PayPal — the renamed X.com — for $1.5 billion in stock. Musk, the largest shareholder, walks away with $180 million after tax.",
+          "story": "eBay bought PayPal for $1.5B. Musk walked away with $180M and immediately started two more companies.",
+          "insight": "Stack exits, not lifestyle. Every win is just a bigger stake for the next mission.",
+          "icon": "💳",
+          "tag": "Milestone",
+          "category": "acquisition",
+          "tags": [
+            "PayPal",
+            "eBay",
+            "second exit"
+          ],
+          "stats": [
+            {
+              "label": "Sale Price",
+              "value": "$1.5B"
+            },
+            {
+              "label": "Musk's Payout",
+              "value": "$180M"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "em-2002-spacex",
+          "year": 2002,
+          "age": 31,
+          "month": "May",
+          "title": "SpaceX Founded — Rockets for $100M",
+          "description": "Musk founds Space Exploration Technologies (SpaceX) with $100M of his own money, aiming to reduce space transportation costs and enable colonization of Mars.",
+          "story": "Founded SpaceX with $100M of his own money to build cheaper rockets and eventually get to Mars.",
+          "insight": "Bet on yourself when no one else will. The bigger the mission, the bigger the required belief.",
+          "icon": "🚀",
+          "tag": "Moonshot",
+          "category": "milestone",
+          "tags": [
+            "SpaceX",
+            "rockets",
+            "Mars",
+            "bold bet"
+          ],
+          "stats": [
+            {
+              "label": "Personal Investment",
+              "value": "$100M"
+            }
+          ],
+          "quote": "\"I thought we had maybe a 10% chance of succeeding. But I wanted to try anyway.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "em-2004-tesla",
+          "year": 2004,
+          "age": 33,
+          "month": "February",
+          "title": "Joins Tesla as Chairman — Goes All In",
+          "description": "Musk leads Tesla's $7.5M Series A funding round and joins as chairman of the board. He later becomes CEO after ousting the co-founders, staking his personal fortune on the company.",
+          "story": "Led Tesla's Series A at $7.5M and joined as chairman — later became CEO and bet his fortune on it.",
+          "insight": "Own your category before it exists. Bet on the world you want to see, not the one that's here.",
+          "icon": "⚡",
+          "tag": "Big Bet",
+          "category": "funding",
+          "tags": [
+            "Tesla",
+            "EVs",
+            "Series A"
+          ],
+          "stats": [
+            {
+              "label": "Series A",
+              "value": "$7.5M"
+            }
+          ],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "em-2008-near-bankruptcy",
+          "year": 2008,
+          "age": 37,
+          "month": "December",
+          "title": "Near Bankruptcy — The Darkest Year",
+          "description": "Tesla and SpaceX are both on the verge of bankruptcy simultaneously. Falcon 1 fails 3 times. Musk splits his last $30–35M between both companies to save them. Tesla's final investment round clears in the last hours before the deadline.",
+          "story": "Both SpaceX and Tesla nearly bankrupt at the same time. Musk split his last $35M between them.",
+          "insight": "True founders never stop fighting. The darkest moment often comes just before the breakthrough.",
+          "icon": "💀",
+          "tag": "Darkest Hour",
+          "category": "setback",
+          "tags": [
+            "crisis",
+            "near-death",
+            "resilience",
+            "darkest hour"
+          ],
+          "stats": [
+            {
+              "label": "Last Personal$ Split",
+              "value": "$35M"
+            },
+            {
+              "label": "Falcon 1 Failures",
+              "value": "3 fails"
+            }
+          ],
+          "quote": "\"I thought we would fail. I thought we would definitely lose. But I couldn't give up.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "em-2010-tesla-ipo",
+          "year": 2010,
+          "age": 39,
+          "month": "June",
+          "title": "Tesla Goes Public — First Auto IPO Since Ford",
+          "description": "Tesla's IPO raises $226M, the first American auto company to go public since Ford in 1956. The stock closes at $23.89. It was a turning point for the EV industry.",
+          "story": "Tesla went public — the first US auto IPO since Ford in 1956. The EV revolution became real.",
+          "insight": "Patience plus persistence equals inevitability. Every impossible thing was impossible until it wasn't.",
+          "icon": "📈",
+          "tag": "Milestone",
+          "category": "milestone",
+          "tags": [
+            "Tesla",
+            "IPO",
+            "EV revolution"
+          ],
+          "stats": [
+            {
+              "label": "IPO Raise",
+              "value": "$226M"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "em-2015-falcon9-reuse",
+          "year": 2015,
+          "age": 44,
+          "month": "December",
+          "title": "SpaceX Lands a Rocket — History Made",
+          "description": "SpaceX successfully lands the Falcon 9 first stage booster for the first time — a feat deemed impossible by aerospace experts. Reusable rockets change the economics of space travel forever.",
+          "story": "Landed a rocket booster for the first time in history — something experts called impossible.",
+          "insight": "Do the impossible, then do it 10 more times. Repetition makes the miraculous routine.",
+          "icon": "🛸",
+          "tag": "History Made",
+          "category": "milestone",
+          "tags": [
+            "SpaceX",
+            "reusable rockets",
+            "history",
+            "impossible"
+          ],
+          "stats": [
+            {
+              "label": "Cost Reduction",
+              "value": "~70%"
+            }
+          ],
+          "quote": "\"I can't quite believe it. This is a revolutionary moment in spaceflight.\"",
+          "isHighlight": true
+        },
+        {
+          "id": "em-2022-twitter",
+          "year": 2022,
+          "age": 51,
+          "month": "October",
+          "title": "Buys Twitter for $44 Billion — Renames It X",
+          "description": "Musk completes his controversial $44 billion acquisition of Twitter, walks in carrying a sink, fires half the company, and renames it X as part of his vision for an everything app.",
+          "story": "Bought Twitter for $44B, walked in with a sink, fired half the staff, and renamed it X.",
+          "insight": "Sometimes you buy the platform to fix the conversation. Bold moves make history — or cautionary tales.",
+          "icon": "🐦",
+          "tag": "Bold Move",
+          "category": "acquisition",
+          "tags": [
+            "Twitter",
+            "X",
+            "everything app",
+            "controversial"
+          ],
+          "stats": [
+            {
+              "label": "Price",
+              "value": "$44B"
+            },
+            {
+              "label": "Staff Cut",
+              "value": "~50%"
+            }
+          ],
+          "quote": "\"The bird is freed.\"",
+          "isHighlight": true
+        }
+      ]
+    },
+    {
+      "id": "pavel-durov",
+      "profile": {
+        "name": "Pavel Durov",
+        "title": "Founder & CEO",
+        "company": "Telegram",
+        "companies": [
+          "VKontakte",
+          "Telegram"
+        ],
+        "tagline": "The privacy renegade who built a billion-user messenger — and refused to hand over the keys",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pavel_Durov_sitting_portrait_%28cropped%29.jpg/500px-Pavel_Durov_sitting_portrait_%28cropped%29.jpg",
+        "netWorth": "$15B+",
+        "totalFundsRaised": "$2B+",
+        "usersServed": "1B+",
+        "followersInspired": "1.2M+",
+        "avatarInitials": "PD",
+        "accentColor": "#229ED9",
+        "bio": "Pavel Durov built Russia's largest social network at 21, then walked away from it rather than surrender his users' data to the state. Exiled and stateless, he built Telegram into a privacy-first messenger used by over a billion people — largely self-funded, ad-light, and fiercely independent.",
+        "inspiration": "\"I would rather be free than to be paid for and told what to do.\"",
+        "quotes": [
+          "I would rather be free than to be paid for and told what to do.",
+          "Privacy is not for sale, and human rights should not be compromised out of fear or greed.",
+          "The strength of a network is defined by the freedom of its users.",
+          "If you want to be free, you have to be ready to sacrifice a lot.",
+          "Money is never a good enough reason to compromise your principles."
+        ]
+      },
+      "timeline": [
+        {
+          "id": "pd-1984-birth",
+          "year": 1984,
+          "age": 0,
+          "title": "Born in Leningrad, Soviet Union",
+          "description": "Pavel Valeryevich Durov is born on October 10, 1984 in Leningrad (now St. Petersburg). He spends part of his childhood in Turin, Italy, where his father works as an academic.",
+          "story": "Born in Soviet Leningrad, raised partly in Italy — a coder's mind shaped between two worlds.",
+          "insight": "The outsider's view is an advantage. Growing up between cultures teaches you that rules are just local defaults.",
+          "icon": "👶",
+          "tag": "Origin",
+          "category": "personal",
+          "tags": [
+            "childhood",
+            "origin",
+            "Russia"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "pd-1996-code",
+          "year": 1996,
+          "age": 12,
+          "title": "Writes his first code as a kid",
+          "description": "By his early teens Durov is already programming and famously hacks his school's computer network, replacing the admin login screen with a message.",
+          "story": "A teenage hacker who couldn't resist rewriting the systems around him.",
+          "insight": "Builders are made early. The instinct to change the system instead of accepting it shows up long before the first company.",
+          "icon": "💻",
+          "tag": "Early Genius",
+          "category": "personal",
+          "tags": [
+            "coding",
+            "prodigy"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": false
+        },
+        {
+          "id": "pd-2006-vk",
+          "year": 2006,
+          "age": 22,
+          "title": "Founds VKontakte at 21",
+          "description": "Fresh out of Saint Petersburg State University, Pavel and his brother Nikolai launch VKontakte (VK) — a social network that quickly becomes the largest in Russia.",
+          "story": "At 21 he builds VK, and it becomes the social layer of an entire country.",
+          "insight": "Ship for the users nobody else is serving well. VK won by being faster and cleaner than everything Russians already had.",
+          "icon": "🚀",
+          "tag": "Big Beginning",
+          "category": "product",
+          "tags": [
+            "VKontakte",
+            "startup",
+            "social"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2008-largest",
+          "year": 2008,
+          "age": 24,
+          "title": "VK becomes Russia's #1 network",
+          "description": "Within two years VK passes tens of millions of users, overtaking rivals to become the most-visited site in Russia and much of the former USSR.",
+          "story": "VK explodes past every competitor to become Russia's default social network.",
+          "insight": "Distribution compounds. Once you're the place people already are, growth stops being something you push for.",
+          "icon": "📈",
+          "tag": "Milestone",
+          "category": "milestone",
+          "tags": [
+            "growth",
+            "scale"
+          ],
+          "stats": [
+            {
+              "label": "Users",
+              "value": "50M+"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2011-standoff",
+          "year": 2011,
+          "age": 27,
+          "title": "Refuses to censor protest pages",
+          "description": "During anti-government protests, authorities demand VK shut down opposition groups. Durov refuses — and posts a photo of a dog in a hoodie sticking out its tongue as his reply.",
+          "story": "Ordered to silence protesters, he answered the government with a picture of a dog.",
+          "insight": "Your values get tested under pressure, not comfort. What you refuse to do defines the product more than what you build.",
+          "icon": "🐕",
+          "tag": "Bold Decision",
+          "category": "personal",
+          "tags": [
+            "free speech",
+            "principles"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2013-telegram",
+          "year": 2013,
+          "age": 29,
+          "title": "Launches Telegram with his brother",
+          "description": "Frustrated after realizing he had no secure way to message even his own contacts, Pavel and Nikolai Durov launch Telegram — an encrypted, cloud-based messenger built for privacy.",
+          "story": "Locked out of secure messaging, the Durov brothers just built their own.",
+          "insight": "The best products come from your own unbearable problem. Telegram existed because Pavel personally needed it.",
+          "icon": "✈️",
+          "tag": "Innovation",
+          "category": "product",
+          "tags": [
+            "Telegram",
+            "encryption",
+            "launch"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2014-exile",
+          "year": 2014,
+          "age": 30,
+          "title": "Forced out of VK, leaves Russia",
+          "description": "After refusing to hand over user data on Ukrainian protesters, Durov is pushed out of VK as allies of the Kremlin take control. He sells his stake and leaves Russia, becoming a stateless entrepreneur.",
+          "story": "He lost VK and his country in the same year — and chose exile over compliance.",
+          "insight": "Sometimes protecting the mission means losing everything you built. Freedom to build again is worth more than any single company.",
+          "icon": "🧳",
+          "tag": "Turning Point",
+          "category": "setback",
+          "tags": [
+            "exile",
+            "VK",
+            "principles"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2015-grow",
+          "year": 2015,
+          "age": 31,
+          "title": "Telegram passes 60M users",
+          "description": "Telegram grows virally on the promise of speed and privacy, crossing 60 million monthly users and delivering billions of messages a day — with no marketing budget.",
+          "story": "With zero ad spend, Telegram races past 60 million users on word of mouth alone.",
+          "insight": "A product people trust markets itself. Privacy wasn't a feature — it was the whole growth engine.",
+          "icon": "🔒",
+          "tag": "Expansion",
+          "category": "milestone",
+          "tags": [
+            "growth",
+            "privacy"
+          ],
+          "stats": [
+            {
+              "label": "Users",
+              "value": "60M+"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2018-ban",
+          "year": 2018,
+          "age": 34,
+          "title": "Banned in Russia — and stays defiant",
+          "description": "Russia orders Telegram to hand over encryption keys. Durov refuses, and the state attempts to block the app, accidentally taking down parts of the Russian internet in the process. Telegram keeps running.",
+          "story": "Russia tried to ban Telegram and broke its own internet instead. Durov didn't blink.",
+          "insight": "Standing firm has a cost, but caving has a bigger one. The block only proved Telegram was worth protecting.",
+          "icon": "🛡️",
+          "tag": "Bold Move",
+          "category": "setback",
+          "tags": [
+            "privacy",
+            "Russia",
+            "censorship"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2021-half",
+          "year": 2021,
+          "age": 37,
+          "title": "Telegram crosses 500M users",
+          "description": "Amid privacy backlashes at rival apps, Telegram surges past 500 million monthly active users, becoming one of the most downloaded apps in the world.",
+          "story": "As rivals stumbled on privacy, half a billion people moved to Telegram.",
+          "insight": "Your competitors' mistakes are your biggest growth lever. Telegram grew fastest whenever trust in others collapsed.",
+          "icon": "🌍",
+          "tag": "Milestone",
+          "category": "milestone",
+          "tags": [
+            "scale",
+            "growth"
+          ],
+          "stats": [
+            {
+              "label": "Users",
+              "value": "500M+"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2024-arrest",
+          "year": 2024,
+          "age": 40,
+          "title": "Arrested in France",
+          "description": "In August 2024 Durov is detained at a Paris airport as French authorities probe content moderation on the platform. He is released on bail and vows Telegram will keep improving without abandoning its principles.",
+          "story": "Stopped at a Paris airport, the free-speech founder became the story himself.",
+          "insight": "Scale brings the state to your door. Every platform eventually collides with the hard question of responsibility versus freedom.",
+          "icon": "⚖️",
+          "tag": "Challenge",
+          "category": "setback",
+          "tags": [
+            "legal",
+            "moderation",
+            "France"
+          ],
+          "stats": [],
+          "quote": "",
+          "isHighlight": true
+        },
+        {
+          "id": "pd-2025-billion",
+          "year": 2025,
+          "age": 41,
+          "title": "Telegram reaches 1 billion users",
+          "description": "Telegram crosses one billion monthly active users and turns profitable for the first time — built and largely funded by a founder who kept it independent, ad-light, and privacy-first.",
+          "story": "One billion users, finally profitable, still independent — the bet paid off.",
+          "insight": "Patience plus principles compounds. Refusing to sell out or sell data for a decade built something almost no one else could.",
+          "icon": "🏆",
+          "tag": "History Made",
+          "category": "milestone",
+          "tags": [
+            "billion",
+            "profitability",
+            "scale"
+          ],
+          "stats": [
+            {
+              "label": "Users",
+              "value": "1B+"
+            }
+          ],
+          "quote": "",
+          "isHighlight": true
+        }
+      ]
+    }
+  ]
+}
