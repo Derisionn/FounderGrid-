@@ -546,6 +546,7 @@ const HomeScreen = () => {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [fetchError, setFetchError] = useState<string | null>(null);
+  const [currentUser, setCurrentUser] = useState(ME);
 
   const fetchPosts = useCallback(async () => {
     setFetchError(null);
@@ -568,6 +569,16 @@ const HomeScreen = () => {
 
   useEffect(() => {
     fetchPosts().finally(() => setLoading(false));
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      if (user && user.user_metadata) {
+        const name = user.user_metadata.full_name || user.user_metadata.username || 'Builder';
+        setCurrentUser(prev => ({
+          ...prev,
+          initials: initialsFrom(name),
+          name: name,
+        }));
+      }
+    });
   }, [fetchPosts]);
 
   const onRefresh = useCallback(async () => {
@@ -642,7 +653,7 @@ const HomeScreen = () => {
               }}
               numberOfLines={1}
             >
-              {ME.name}
+              {currentUser.name}
             </Text>
           </View>
 
