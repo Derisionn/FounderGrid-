@@ -1,4 +1,4 @@
-# Foundora — Survival Plan
+# FounderGrid — Survival Plan
 
 > No fluff. No "you've got this!" energy. This is the honest playbook for not joining the builder-app graveyard.
 >
@@ -22,20 +22,20 @@ Apps that tried to be "a community for builders" and died (or stalled to a heart
 
 **Pattern**: All started with "let's make a place where builders gather." All discovered builders already gather on Twitter/X — and the switching cost is brutally high because Twitter has the followers, the graph, and the dopamine.
 
-**This is the headwind Foundora is fighting.** Not naming it doesn't make it go away.
+**This is the headwind FounderGrid is fighting.** Not naming it doesn't make it go away.
 
 ---
 
 ## Why these apps died (the real reasons, not the polite ones)
 
-1. **Empty feed = empty app.** Social products need critical mass on day one. Cold start kills 95% of attempts. If new users open Foundora and the feed is sparse, they leave forever.
+1. **Empty feed = empty app.** Social products need critical mass on day one. Cold start kills 95% of attempts. If new users open FounderGrid and the feed is sparse, they leave forever.
 2. **Builders are cheap and busy.** They don't pay for community. They don't have time to maintain presence on yet another app.
-3. **Twitter already won the network.** The followers, the graph, the muscle memory — all there. Foundora has to be **10x better at one specific thing** to make switching worth it. "Vaguely nicer" is not enough.
+3. **Twitter already won the network.** The followers, the graph, the muscle memory — all there. FounderGrid has to be **10x better at one specific thing** to make switching worth it. "Vaguely nicer" is not enough.
 4. **"Vitamin not painkiller."** "Feeling alone while building" is a vitamin pain. Skippable. Won't drive daily usage. Won't drive payment.
 5. **Founder ran out of money / energy.** Solo network-effect products take 2–3 years to maybe work. Most founders quit at month 8.
 6. **No distribution mechanism baked in.** Relied on "we'll do marketing." Marketing without a viral loop in the product is paddling against the current forever.
 
-**Foundora is currently making 4 of these 6 mistakes.** The good news: all 6 are fixable if you act now.
+**FounderGrid is currently making 4 of these 6 mistakes.** The good news: all 6 are fixable if you act now.
 
 ---
 
@@ -43,7 +43,7 @@ Apps that tried to be "a community for builders" and died (or stalled to a heart
 
 ### Truth 1: A social feed app for builders is a doomed positioning
 
-If Foundora's pitch is "post your daily progress, follow other builders, see a feed" — that's the WIP.co / Makerlog pitch. They tried. It didn't work. Doing it again with nicer UI won't change the outcome.
+If FounderGrid's pitch is "post your daily progress, follow other builders, see a feed" — that's the WIP.co / Makerlog pitch. They tried. It didn't work. Doing it again with nicer UI won't change the outcome.
 
 **What to do**: Stop calling it a social app. Reposition as a **tool that happens to have community**, not a community that happens to have tools.
 
@@ -51,17 +51,17 @@ If Foundora's pitch is "post your daily progress, follow other builders, see a f
 
 Wikipedia exists. Forbes exists. There are 50 YouTube channels covering this exact content. Two pre-loaded founders is a tech demo, not a moat.
 
-**What to do**: Either (a) cut founder timelines entirely and focus the wedge, or (b) make founder content do something only Foundora can — like overlay them onto your own life ("Bezos was 30 when he started Amazon — you're 28") with daily comparison nudges. The second is interesting. The first is faster.
+**What to do**: Either (a) cut founder timelines entirely and focus the wedge, or (b) make founder content do something only FounderGrid can — like overlay them onto your own life ("Bezos was 30 when he started Amazon — you're 28") with daily comparison nudges. The second is interesting. The first is faster.
 
 ### Truth 3: Mood tags are cute, not load-bearing
 
-"What's your mood today: shipping / learning / struggling / productive" is a clever signal but it's not what brings users back daily. Instagram has Stories. Twitter has Replies. What's Foundora's hook that makes someone open the app at 9pm without a notification?
+"What's your mood today: shipping / learning / struggling / productive" is a clever signal but it's not what brings users back daily. Instagram has Stories. Twitter has Replies. What's FounderGrid's hook that makes someone open the app at 9pm without a notification?
 
-**What to do**: Identify the **single behavior** that defines Foundora. Not 5 features. One. ("Strava users open it after every run." What's Foundora's "after every run"?)
+**What to do**: Identify the **single behavior** that defines FounderGrid. Not 5 features. One. ("Strava users open it after every run." What's FounderGrid's "after every run"?)
 
 ### Truth 4: You will not out-execute Twitter on social
 
-You're one developer (assumed). Twitter has thousands of engineers and the network. If Foundora's plan is "be like Twitter but for builders," the math doesn't work.
+You're one developer (assumed). Twitter has thousands of engineers and the network. If FounderGrid's plan is "be like Twitter but for builders," the math doesn't work.
 
 **What to do**: Pick a wedge Twitter is *bad* at. Examples:
 - Twitter is bad at **public goal tracking** with progress %
@@ -82,9 +82,9 @@ You can ship features for a year. You can do Product Hunt. You can run ads. None
 
 ## What "different from dead projects" actually requires
 
-The dead projects all shared these traits. Foundora must do the *opposite* on each:
+The dead projects all shared these traits. FounderGrid must do the *opposite* on each:
 
-| Dead-project trait | Foundora must do |
+| Dead-project trait | FounderGrid must do |
 |---------------------|------------------|
 | Generic "community for X" pitch | Specific tool that solves one painkiller |
 | No distribution loop in the product | Public artifacts (profiles/cards/widgets) that bring new users via existing users |
@@ -104,7 +104,7 @@ Pick one. Don't pick three. Don't keep "all of the above" on the table.
 
 ### Option 1: **Buildscape** — the public builder portfolio
 - **Repositioning**: "Your project's public progress page. Like a Linktree, but it grows automatically as you ship."
-- **Core feature**: every user gets `foundora.app/p/:project` — a beautiful auto-updating page from their daily posts
+- **Core feature**: every user gets `foundergrid.app/p/:project` — a beautiful auto-updating page from their daily posts
 - **Monetization**: $5/mo for custom domain + analytics + remove branding
 - **Why it survives**: each user creates a public page → SEO + sharing → distribution baked in → not competing with Twitter
 - **Risk**: requires solid web component (you've been building mobile-only)
@@ -230,9 +230,9 @@ Direct quotes (paraphrased) from interviews/post-mortems of failed builder apps:
 If you take only one section of this doc seriously, take this one. Specific actions, this week, before anything else:
 
 1. **Decide the wedge.** Pick from the 4 options. Write it down somewhere visible. One sentence.
-2. **Buy `foundora.app` (or your chosen domain) and ship a 1-page waitlist site.** End of day Tuesday.
+2. **Buy `foundergrid.app` (or your chosen domain) and ship a 1-page waitlist site.** End of day Tuesday.
 3. **Send 20 cold DMs/emails to indie builders** asking for 15 minutes. Schedule 5+ calls this week.
-4. **Tweet daily** about Foundora's wedge — not the social-app version. The new positioning.
+4. **Tweet daily** about FounderGrid's wedge — not the social-app version. The new positioning.
 5. **Decide on a paid tier.** Even if it's "$5/mo for X" — write it down.
 6. **Set a hard kill date** in your calendar. Mine would be day 90. If kill criteria are hit, you stop.
 
@@ -240,12 +240,12 @@ If you take only one section of this doc seriously, take this one. Specific acti
 
 ## The meta-truth
 
-The thing that decides whether Foundora survives isn't the code, the design, the marketing copy, or the launch.
+The thing that decides whether FounderGrid survives isn't the code, the design, the marketing copy, or the launch.
 
-It's whether you can **stop being a builder of Foundora and become a marketer of Foundora who occasionally writes code**. The dead apps in the graveyard above all had founders who fell in love with shipping features instead of falling in love with talking to users.
+It's whether you can **stop being a builder of FounderGrid and become a marketer of FounderGrid who occasionally writes code**. The dead apps in the graveyard above all had founders who fell in love with shipping features instead of falling in love with talking to users.
 
 The ones that survived — Indie Hackers, Stripe Press, even small wins like Marc Lou's collection — had founders who shipped less code and shipped more conversations.
 
-If you can make that mental switch, Foundora has a real shot. If you can't, no plan in this document will save it.
+If you can make that mental switch, FounderGrid has a real shot. If you can't, no plan in this document will save it.
 
 Be honest about which mode you're in. Then decide if this is the right project.

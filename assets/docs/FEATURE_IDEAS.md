@@ -1,4 +1,4 @@
-# Foundora — Feature Improvements & New Ideas
+# FounderGrid — Feature Improvements & New Ideas
 
 > Companion to [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) and [PRODUCTION_ROADMAP.md](PRODUCTION_ROADMAP.md).
 > This doc is purely about **product**: improvements to existing screens + net-new feature concepts. Each idea includes the *why*, the *how*, and a rough effort estimate.
@@ -103,7 +103,7 @@
 | 6.6 | **External links** | Twitter, GitHub, personal site, Product Hunt | 🟢 |
 | 6.7 | **Share profile** | Generate a card image with stats; share to Twitter/IG | 🟡 |
 | 6.8 | **Block / mute** | Required for any social product | 🟡 |
-| 6.9 | **Public profile QR code** | Generates `foundora.app/u/:handle` QR — useful at meetups | 🟢 |
+| 6.9 | **Public profile QR code** | Generates `foundergrid.app/u/:handle` QR — useful at meetups | 🟢 |
 
 ---
 
@@ -128,7 +128,7 @@
 ### A. Daily Build Log 🟡
 **What**: A dedicated "today" view at the top of Home — shows a single vertical card per builder you follow with their post(s) for today only. Builds urgency to post; mimics the "story" mental model without being a 24h disappearing story.
 
-**Why**: Foundora's core loop is "tell me what builders shipped today." A "Today" lens beats a generic feed for that.
+**Why**: FounderGrid's core loop is "tell me what builders shipped today." A "Today" lens beats a generic feed for that.
 
 **How**: Query posts where `created_at > today_local_midnight` for followed users, render above the chronological feed.
 
@@ -141,7 +141,7 @@
 
 **How**: `streaks` table with `user_id`, `current_streak`, `best_streak`. Cron job at user-local midnight resets if no post yesterday.
 
-**Risk**: Don't make it the *only* thing — risk turning Foundora into a streak-anxiety machine. Allow opt-out.
+**Risk**: Don't make it the *only* thing — risk turning FounderGrid into a streak-anxiety machine. Allow opt-out.
 
 ---
 
@@ -160,7 +160,7 @@
 ### D. Topic Hashtag Pages 🟡
 **What**: Tap `#saas` in any post → page showing all posts with that tag, top contributors, related tags.
 
-**Why**: Builds discovery beyond who you follow. Helps Foundora become the "search engine for builders working on X."
+**Why**: Builds discovery beyond who you follow. Helps FounderGrid become the "search engine for builders working on X."
 
 **How**: Parse `#tag` regex client-side, store in `post_tags` table, build aggregation query.
 
@@ -169,7 +169,7 @@
 ### E. Builder Pairings / Accountability Buddies 🔴
 **What**: Weekly opt-in matching with another builder of similar stage. You DM each other every day with what you'll ship that day.
 
-**Why**: Accountability buddies are proven (YC pairs founders this way). Foundora is uniquely positioned to provide them.
+**Why**: Accountability buddies are proven (YC pairs founders this way). FounderGrid is uniquely positioned to provide them.
 
 **How**:
 - Opt-in toggle in Settings
@@ -220,7 +220,7 @@
 ### J. Weekly Reflection (AI) 🟡
 **What**: Every Sunday, an AI-generated summary of your week's posts: themes, mood patterns, achievements. Private to you (or sharable if you want).
 
-**Why**: Most builders don't journal but want the benefits. Foundora already has the data.
+**Why**: Most builders don't journal but want the benefits. FounderGrid already has the data.
 
 **How**: Sunday cron → Edge Function with Anthropic API → store summary → notification.
 
@@ -238,14 +238,14 @@
 ### L. Lessons Learned Library 🟡
 **What**: Builders can mark a post as a "lesson learned" — these posts get aggregated into a searchable library by topic.
 
-**Why**: Most valuable Foundora content is hard-won lessons. Surfacing them creates a moat (search engine for builder wisdom).
+**Why**: Most valuable FounderGrid content is hard-won lessons. Surfacing them creates a moat (search engine for builder wisdom).
 
 **How**: Add `is_lesson` boolean, separate listing screen with topic filtering.
 
 ---
 
 ### M. Founder Quote Lock Screen Widget 🟡 (iOS 16+ / Android)
-**What**: Lock screen widget with daily quote from a Foundora founder.
+**What**: Lock screen widget with daily quote from a FounderGrid founder.
 
 **Why**: Free distribution; ambient brand presence.
 
@@ -256,7 +256,7 @@
 ### N. Sharing as Beautiful Cards 🟡
 **What**: Generate a designed image card of your post (mood + text + branding) shareable to Twitter/IG/LinkedIn.
 
-**Why**: Free marketing. Makes Foundora visible outside the app.
+**Why**: Free marketing. Makes FounderGrid visible outside the app.
 
 **How**: `react-native-view-shot` + a `<Card />` component that mirrors post design; share via `Share` API.
 
@@ -307,7 +307,7 @@
 
 ---
 
-### T. AI Co-Founder ("Ask Foundora") 🔴
+### T. AI Co-Founder ("Ask FounderGrid") 🔴
 **What**: A chat interface trained on aggregated lessons-learned + founder timelines. Ask "should I raise or bootstrap?" → grounded answers with links to relevant posts.
 
 **Why**: Highly differentiated. Turns the corpus into a tool, not just content.
@@ -335,11 +335,11 @@
 
 ## Part 4 — Differentiation Bets (Pick 1–2 to bet big on)
 
-These are what could make Foundora *the* builder app rather than another social network. Don't try all of them — pick what aligns with the founder's vision.
+These are what could make FounderGrid *the* builder app rather than another social network. Don't try all of them — pick what aligns with the founder's vision.
 
 | Bet | Why it could be the moat |
 |-----|--------------------------|
-| **Founder timeline overlays + AI Co-Founder** | Knowledge product no one else has — Foundora becomes a tool, not a feed |
+| **Founder timeline overlays + AI Co-Founder** | Knowledge product no one else has — FounderGrid becomes a tool, not a feed |
 | **Accountability buddies + weekly reflection** | Solves the loneliness of building alone — emotional moat |
 | **Public goals + project pages + auto-changelog** | Becomes the canonical "builder portfolio" — replaces personal blogs |
 | **Shipping leaderboards + challenges** | Gamified consistency engine — Strava for builders |
@@ -357,4 +357,4 @@ If I had to pick five from this whole document to do *next*, in order:
 4. **Mood heatmap on profile** ([6.3](#6-profile-profiletsx)) — visually striking, screenshot-shareable
 5. **"Yesterday I…" prompt push** ([G](#g-yesterday-i-prompts-)) — drives daily return without being annoying
 
-Each is small enough to ship in a week. Together they take Foundora from "demo" to "real product."
+Each is small enough to ship in a week. Together they take FounderGrid from "demo" to "real product."

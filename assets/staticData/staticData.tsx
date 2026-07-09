@@ -15,7 +15,7 @@ export const PROFILE = {
   username: '@anmol',
   birthYear: 1999,
   buildingSince: 2023,
-  tagline: 'Building Foundora — a daily journal for indie founders.',
+  tagline: 'Building FounderGrid — a daily journal for indie founders.',
   bio: 'React Native engineer turned solo founder. Shipping in public, one commit at a time.',
   location: 'Bengaluru, IN',
   // joined: 'Joined Mar 2025',
@@ -29,7 +29,7 @@ export const PROFILE = {
     { id: 'gh', label: 'github.com/anmol' },
     { id: 'x', label: '@anmol_codes' },
     { id: 'ig', label: '@anmol.builds' },
-    { id: 'web', label: 'foundora.app' },
+    { id: 'web', label: 'foundergrid.app' },
   ],
   skills: ['React Native', 'Backend', 'Design', 'AI', 'Marketing'],
   lookingFor: ['Designer', 'Developer', 'Co-founder'],
@@ -39,7 +39,7 @@ export const RECENT_POSTS = [
   {
     id: 'p1',
     when: 'Today',
-    project: 'Foundora',
+    project: 'FounderGrid',
     text: 'Shipped the new Add Post screen. Auto-save drafts + mood selector working clean.',
     likes: 42,
     comments: 6,
@@ -48,7 +48,7 @@ export const RECENT_POSTS = [
   {
     id: 'p2',
     when: 'Yesterday',
-    project: 'Foundora',
+    project: 'FounderGrid',
     text: 'Refactored the timeline. Cut render time in half by memoizing year groups.',
     likes: 28,
     comments: 3,
@@ -67,8 +67,8 @@ export const RECENT_POSTS = [
 
 export const PROJECTS = [
   {
-    id: 'foundora',
-    name: 'Foundora',
+    id: 'foundergrid',
+    name: 'FounderGrid',
     emoji: '🚀',
     accent: colors.Accent.blue,
     pinned: true,

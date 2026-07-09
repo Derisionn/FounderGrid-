@@ -267,7 +267,7 @@ const LoginScreen = ({ navigation }: LoginScreenProps) => {
             <Text
               style={[texts.heading.heading2, { color: colors.Greyscale[900] }]}
             >
-              Foundora
+              FounderGrid
             </Text>
             <Text
               style={[

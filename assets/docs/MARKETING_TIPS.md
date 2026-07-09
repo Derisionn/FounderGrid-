@@ -1,8 +1,8 @@
-# Foundora — Marketing Playbook
+# FounderGrid — Marketing Playbook
 
 > Companion to [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md), [PRODUCTION_ROADMAP.md](PRODUCTION_ROADMAP.md), and [FEATURE_IDEAS.md](FEATURE_IDEAS.md).
 >
-> Foundora's audience is **solo founders, indie builders, and side-project hackers**. They live on Twitter/X, Indie Hackers, Product Hunt, Reddit, Discord, and YouTube. They're cynical of polished marketing and respond to authenticity, transparency, and "build in public." This playbook is built for that audience.
+> FounderGrid's audience is **solo founders, indie builders, and side-project hackers**. They live on Twitter/X, Indie Hackers, Product Hunt, Reddit, Discord, and YouTube. They're cynical of polished marketing and respond to authenticity, transparency, and "build in public." This playbook is built for that audience.
 >
 > Effort key: 🟢 ongoing/low-lift · 🟡 needs a focused day or two · 🔴 multi-week campaign
 
@@ -35,14 +35,14 @@ Your launch is only as big as your pre-launch. Apps that "just launch" on Produc
 
 ### 2.1 Build the founder's audience 🟢
 The single biggest predictor of indie app success is the founder having a Twitter audience. Spend 30 min/day on:
-- **Twitter/X**: Post Foundora's build journey daily. Show screenshots, design decisions, code snippets, mistakes. Use Foundora itself once it's live and screenshot-share each post.
+- **Twitter/X**: Post FounderGrid's build journey daily. Show screenshots, design decisions, code snippets, mistakes. Use FounderGrid itself once it's live and screenshot-share each post.
 - **Indie Hackers**: Post weekly milestone updates ("Week 4: 100 sign-ups, here's what worked"). The IH community boosts authentic builders.
 - **LinkedIn**: Surprisingly underused by builders — less competition, longer organic reach.
 
 Goal: **1,000 Twitter followers** before launch.
 
 ### 2.2 Landing page with waitlist 🟡
-- One-pager (Framer, Carrd, or just a simple Next.js site at foundora.app)
+- One-pager (Framer, Carrd, or just a simple Next.js site at foundergrid.app)
 - Hero: tagline + 3-second demo GIF
 - 3 screenshots showing the *transformation* (lonely builder → builder with community)
 - Email capture → waitlist
@@ -53,7 +53,7 @@ Tools: [Tally](https://tally.so) for waitlist, [Resend](https://resend.com) for 
 
 ### 2.3 Founder's "build in public" Twitter thread 🟢
 Pick a recurring format and stick to it. Examples:
-- **Friday Foundora**: every Friday post a screenshot + 1 metric ("This week: 200 posts, 40 new builders, +15% retention")
+- **Friday FounderGrid**: every Friday post a screenshot + 1 metric ("This week: 200 posts, 40 new builders, +15% retention")
 - **Behind-the-Build**: weekly thread with a design/engineering decision and the *why*
 - **Today I…**: daily post mirroring the in-app pattern
 
@@ -64,13 +64,13 @@ Consistency > volume. 1 post/day for 90 days beats 10 posts/day for 9 days.
 - Cap at 100 testers — manageable feedback loop
 - Recruit from: Twitter replies, Indie Hackers DMs, your existing network
 - **Make beta testers feel special**: dedicated Discord channel, weekly "founder office hours," credit in app ("Founding Builder #042")
-- Ask each tester *one* question after week 1: "Would you be disappointed if Foundora went away?" — Sean Ellis test, target 40%+ "very disappointed"
+- Ask each tester *one* question after week 1: "Would you be disappointed if FounderGrid went away?" — Sean Ellis test, target 40%+ "very disappointed"
 
 ### 2.5 Pre-launch Discord / Slack 🟡
 A small private community (50–200 builders) that can't wait to launch. Channels:
 - `#announcements` — your updates only
 - `#feedback` — testers report bugs/ideas
-- `#showcase` — they share what they're shipping (Foundora dogfooding!)
+- `#showcase` — they share what they're shipping (FounderGrid dogfooding!)
 - `#introductions` — onboarding ritual
 
 Discord is the indie-builder norm; default there unless audience leans elsewhere.
@@ -97,10 +97,10 @@ Discord is the indie-builder norm; default there unless audience leans elsewhere
 Realistic outcome: Top 5 finish = ~3,000 visits + ~500 sign-ups. Don't expect Top 1.
 
 ### 3.2 Indie Hackers launch post 🟡
-Same day or day after PH. Title formula: "I built Foundora — a [tagline]. Here's what I learned." Be transparent: tech stack, costs, mistakes. IH rewards transparency over polish.
+Same day or day after PH. Title formula: "I built FounderGrid — a [tagline]. Here's what I learned." Be transparent: tech stack, costs, mistakes. IH rewards transparency over polish.
 
 ### 3.3 HackerNews "Show HN" 🟡
-- Title: "Show HN: Foundora — [tagline]"
+- Title: "Show HN: FounderGrid — [tagline]"
 - Submit Tuesday/Wednesday morning ET
 - First comment from you: technical details, why you built it, what's next
 - HN audience is technical and skeptical — lead with substance, not hype
@@ -117,9 +117,9 @@ Subreddits where it could land well:
 **Rule**: don't drop and run. Be a real Reddit user (≥100 karma, comment first). One self-promo per subreddit, max.
 
 ### 3.5 Twitter launch thread 🟢
-Tweet 1 (hook): "1 year ago I was lonely building in my apartment. Today I'm launching Foundora — the home for solo builders. Here's the story 🧵"
+Tweet 1 (hook): "1 year ago I was lonely building in my apartment. Today I'm launching FounderGrid — the home for solo builders. Here's the story 🧵"
 Tweets 2-6: build journey, screenshots, demo GIF, social proof.
-Tweet 7: "Try it: foundora.app — feedback welcome 🙏"
+Tweet 7: "Try it: foundergrid.app — feedback welcome 🙏"
 
 Pin it. Reply to every QT for 48 hours.
 
@@ -132,27 +132,27 @@ This single tactic outperforms most paid ads in raw quality of sign-ups.
 
 ## Part 4 — Content Marketing (The Long Game)
 
-Builders search for solutions. Foundora's founder timelines + lessons-learned library is **SEO gold** if you make it indexable.
+Builders search for solutions. FounderGrid's founder timelines + lessons-learned library is **SEO gold** if you make it indexable.
 
 ### 4.1 Public web profiles 🔴
-Every Foundora user gets `foundora.app/u/:handle` — public, indexable, cached. As the user base grows, that's hundreds of thousands of pages of original content ranking for builder-related queries. (See Feature C / I in [FEATURE_IDEAS.md](FEATURE_IDEAS.md).)
+Every FounderGrid user gets `foundergrid.app/u/:handle` — public, indexable, cached. As the user base grows, that's hundreds of thousands of pages of original content ranking for builder-related queries. (See Feature C / I in [FEATURE_IDEAS.md](FEATURE_IDEAS.md).)
 
 ### 4.2 Founder Timeline pages as SEO bait 🔴
-Each founder gets a public page: `foundora.app/founders/elon-musk` with timeline, quotes, lessons. Optimize for queries like "elon musk timeline," "elon musk early career," etc. — high search volume, low effort to rank with original visualizations.
+Each founder gets a public page: `foundergrid.app/founders/elon-musk` with timeline, quotes, lessons. Optimize for queries like "elon musk timeline," "elon musk early career," etc. — high search volume, low effort to rank with original visualizations.
 
-### 4.3 Blog: the Foundora Journal 🟢
+### 4.3 Blog: the FounderGrid Journal 🟢
 Weekly posts. Categories that work for builders:
-- **"Behind the build"**: how Foundora itself was made
+- **"Behind the build"**: how FounderGrid itself was made
 - **"Founder profiles"**: deep-dive on one indie builder/month
 - **"Tools we use"**: every tool a builder buys is a content opportunity
 - **"Data stories"**: aggregated insights ("We analyzed 10,000 builder posts. Here's what they actually struggle with.") — gold for backlinks
 
-Hosting: subdomain blog `blog.foundora.app` (Ghost, Astro, or Next.js). Submit each post to Hacker News + Indie Hackers.
+Hosting: subdomain blog `blog.foundergrid.app` (Ghost, Astro, or Next.js). Submit each post to Hacker News + Indie Hackers.
 
 ### 4.4 YouTube short series 🟡
 Vertical 60-second videos (also for Reels/TikTok/Shorts):
 - "What [famous founder] was doing at [your age]"
-- "5 lessons from this week on Foundora"
+- "5 lessons from this week on FounderGrid"
 - "Behind-the-build: how I built X feature"
 
 YouTube Shorts has the best discovery-to-effort ratio in 2026. Even amateur production works.
@@ -166,7 +166,7 @@ Every 2 weeks, post an aggregate insight from your data:
 This builds a reputation as "the app with the data on builders" — earns press mentions.
 
 ### 4.6 Newsletter 🟡
-Weekly "The Build Journal" — top 5 posts from Foundora, 1 founder spotlight, 1 lesson. Sent free.
+Weekly "The Build Journal" — top 5 posts from FounderGrid, 1 founder spotlight, 1 lesson. Sent free.
 - Tools: Beehiiv (best for indie growth) or Resend + a custom builder
 - Goal at 6 months: 3,000 subscribers
 - Builds an off-app channel you own forever — insurance against App Store risk
@@ -175,7 +175,7 @@ Weekly "The Build Journal" — top 5 posts from Foundora, 1 founder spotlight, 1
 
 ## Part 5 — Growth Loops Baked Into the Product
 
-Marketing tactics get you spikes. **Growth loops** compound. Bake at least 2 into Foundora.
+Marketing tactics get you spikes. **Growth loops** compound. Bake at least 2 into FounderGrid.
 
 ### Loop 1 — Public profile sharing 🟡
 Mechanism: every user has a beautiful public profile page → builders link to it from Twitter bios, websites, email signatures → those clicks become sign-ups → who add their own public profile.
@@ -183,7 +183,7 @@ Mechanism: every user has a beautiful public profile page → builders link to i
 Required features: nice public profile pages, easy share button, profile customization.
 
 ### Loop 2 — Shareable post cards 🟡
-Mechanism: tap "share" on a Foundora post → generates a beautifully designed image card → posted to Twitter/IG → Foundora logo + handle visible → curious viewers click through → sign up.
+Mechanism: tap "share" on a FounderGrid post → generates a beautifully designed image card → posted to Twitter/IG → FounderGrid logo + handle visible → curious viewers click through → sign up.
 
 This is **Strava's growth loop**. The shared image is the ad.
 
@@ -200,7 +200,7 @@ Mechanism: invite 3 builders → unlock founding-builder badge / Pro features fo
 Tools: [Refersion](https://refersion.com), [Rewardful](https://rewardful.com), or roll your own (one table, simple).
 
 ### Loop 5 — Founder Timeline embeds 🔴
-Mechanism: anyone can embed a Foundora founder timeline on their blog post → visitors see the timeline + Foundora branding + CTA → become users.
+Mechanism: anyone can embed a FounderGrid founder timeline on their blog post → visitors see the timeline + FounderGrid branding + CTA → become users.
 
 Required: public read-only embed via iframe or oEmbed.
 
@@ -221,7 +221,7 @@ Outlets that cover builder/indie tools:
 - Beat tech blogs in your country
 
 ### 6.2 Pitch template 🟢
-Subject: "Foundora — a 'Strava for builders' launching [date]"
+Subject: "FounderGrid — a 'Strava for builders' launching [date]"
 Body (max 150 words):
 - 1 sentence: what it is, who for
 - 1 sentence: why now (industry context)
@@ -256,7 +256,7 @@ Move beta Discord public at launch. Good channels:
 Active Discord = retention + acquisition channel. Builders share invites in their networks.
 
 ### 7.2 In-person meetups 🔴
-Once you have 100+ users in a city, sponsor or host a small ($300 budget) meetup — coworking-cafe style, 2 hours, no agenda. Recap on Foundora itself + Twitter. Massive loyalty builder.
+Once you have 100+ users in a city, sponsor or host a small ($300 budget) meetup — coworking-cafe style, 2 hours, no agenda. Recap on FounderGrid itself + Twitter. Massive loyalty builder.
 
 ### 7.3 Featured Builder of the Week 🟢
 Each Friday, feature one builder on the app's home screen + a Twitter spotlight + a short Q&A in the newsletter. They share it with their audience → free reach. Costs you 30 mins/week.
@@ -306,7 +306,7 @@ Vanity metrics (followers, downloads) are seductive. Track these instead:
 | **% who post in week 1** | ≥30% | Activation |
 | **Posts per active user / week** | ≥3 | Engagement loop |
 | **% inviting at least 1 friend** | ≥15% | Viral mechanic |
-| **Sean Ellis test** | ≥40% "very disappointed" if Foundora vanished | PMF |
+| **Sean Ellis test** | ≥40% "very disappointed" if FounderGrid vanished | PMF |
 
 **Tools**: PostHog (free up to 1M events) gives you all of this in one place.
 
@@ -364,4 +364,4 @@ If picking the highest-ROI marketing actions to start *this week*, in order:
 4. **Recruit 20 beta testers from your network** (2 days) — quality feedback + early word of mouth
 5. **Plan Product Hunt launch for ~60 days out** (ongoing prep) — gives you a hard deadline to ship
 
-Marketing for indie apps is mostly about **showing up consistently in public** — not clever campaigns. Foundora's audience rewards builders who do exactly that.
+Marketing for indie apps is mostly about **showing up consistently in public** — not clever campaigns. FounderGrid's audience rewards builders who do exactly that.

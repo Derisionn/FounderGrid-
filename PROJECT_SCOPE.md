@@ -1,4 +1,4 @@
-# Foundora — Project & Scope
+# FounderGrid — Project & Scope
 
 > **One-liner:** A mobile-first social network where solo founders and indie builders document what they ship every day, follow each other's journeys, and draw inspiration from the timelines of legendary founders.
 >
@@ -17,9 +17,9 @@ Building a startup or side project alone is isolating. The existing options are 
 
 None of them give a builder a **daily, low-friction posting habit + a followable progress timeline + an accountability community** in one place.
 
-## 2. What Foundora Is
+## 2. What FounderGrid Is
 
-Foundora makes "building in public" a daily ritual. The core loop:
+FounderGrid makes "building in public" a daily ritual. The core loop:
 
 1. **Post your progress** — a short update tagged with a *mood* (productive ⚡, shipping 🚢, learning 📚, struggling 🌧️), optionally with an image, tech stack, and project.
 2. **Build a streak** — consistent daily posting is rewarded and surfaced on a leaderboard.
@@ -160,4 +160,4 @@ Until then the app runs fully on mock data.
 | 6 | No CI/CD or EAS build config | 🟡 |
 | 7 | Test coverage near zero (single smoke test) | 🟡 |
 
-> For the product direction that differentiates Foundora from generic social apps, see **[UNIQUE_FEATURES.md](UNIQUE_FEATURES.md)**.
+> For the product direction that differentiates FounderGrid from generic social apps, see **[UNIQUE_FEATURES.md](UNIQUE_FEATURES.md)**.

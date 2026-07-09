@@ -1,12 +1,12 @@
-# Foundora — Project Overview
+# FounderGrid — Project Overview
 
 > A React Native mobile app for builders/founders to share progress, follow other builders, and explore founder timelines. Currently in active development with core UI flows in place but production essentials missing.
 
 ---
 
-## 1. What Foundora Is
+## 1. What FounderGrid Is
 
-Foundora is a **builder-focused social mobile app** (think "Instagram meets Indie Hackers" for solo founders, indie builders, and entrepreneurs). The MVP centers on:
+FounderGrid is a **builder-focused social mobile app** (think "Instagram meets Indie Hackers" for solo founders, indie builders, and entrepreneurs). The MVP centers on:
 
 - **Daily progress posts** with mood tagging (productive ⚡, shipping 🚢, learning 📚, struggling 🌧️)
 - **Follow & feed system** to discover other builders
@@ -44,7 +44,7 @@ technician-v2/
 ├── App.tsx                      # Root: SafeAreaProvider + NavigationContainer (DarkTheme)
 ├── index.js                     # RN entry
 ├── env.js                       # Hardcoded Supabase URL & anon key (⚠️ leak risk)
-├── app.json                     # name="Foundora"
+├── app.json                     # name="FounderGrid"
 ├── app/
 │   ├── navigation/              # Single-file Stack + Tab config
 │   ├── screens/
@@ -149,11 +149,11 @@ Splash → Login → OTP → BasicInfo → TabNavigator → Settings
 
 ### Android ([AndroidManifest.xml](android/app/src/main/AndroidManifest.xml))
 - Permissions: `INTERNET`, `READ_EXTERNAL_STORAGE`
-- App name: Foundora
+- App name: FounderGrid
 - Default launcher icon (`ic_launcher`)
 
 ### iOS
-- Bundle name: Foundora
+- Bundle name: FounderGrid
 - No camera/photo/notification capability descriptions yet
 
 ---

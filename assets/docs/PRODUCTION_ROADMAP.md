@@ -1,4 +1,4 @@
-# Foundora — Production Roadmap & Feature Plan
+# FounderGrid — Production Roadmap & Feature Plan
 
 > Companion to [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md). This doc is split into two halves:
 >
@@ -100,7 +100,7 @@ Track baseline events: `app_open`, `signup_started`, `signup_completed`, `post_c
 Configure `linking` in `NavigationContainer`:
 ```ts
 const linking = {
-  prefixes: ['foundora://', 'https://foundora.app'],
+  prefixes: ['foundergrid://', 'https://foundergrid.app'],
   config: { screens: { Profile: 'u/:username', Post: 'p/:id' } }
 }
 ```
@@ -115,7 +115,7 @@ Keep AsyncStorage for non-sensitive prefs (theme, last-seen feed, etc.).
 
 ### 10. Permissions & native config
 - iOS Info.plist — add usage descriptions:
-  - `NSCameraUsageDescription` — "Foundora uses your camera to attach photos to posts"
+  - `NSCameraUsageDescription` — "FounderGrid uses your camera to attach photos to posts"
   - `NSPhotoLibraryUsageDescription`
   - `NSPhotoLibraryAddUsageDescription`
   - (later) `NSContactsUsageDescription` — for finding builders to follow
@@ -266,7 +266,7 @@ The screens exist but talk to mock data. Connect them to Supabase.
 ## Phase 4 — Power features (longer-term)
 
 ### 4.1 Web app companion
-- Read-only public profile pages at `foundora.app/u/:username`
+- Read-only public profile pages at `foundergrid.app/u/:username`
 - Helps with sharing, SEO, deep-link landing pages
 
 ### 4.2 Builder spotlights
@@ -286,7 +286,7 @@ The screens exist but talk to mock data. Connect them to Supabase.
 - Loom-style video demos for shipping moments
 
 ### 4.6 Monetization (only after PMF)
-- **Foundora Pro**: advanced analytics, custom badge, profile customization
+- **FounderGrid Pro**: advanced analytics, custom badge, profile customization
 - **Sponsored posts** for relevant SaaS tools
 - Avoid ads in feed — kills the builder vibe
 

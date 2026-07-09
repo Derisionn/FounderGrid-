@@ -92,7 +92,7 @@ const mapDbProject = (row: any, i: number): Project => ({
 const mapDbActivity = (row: any): ActivityPost => ({
   id: String(row.id),
   when: row.created_at ? relativeWhen(row.created_at) : '',
-  project: row.projects?.name ?? 'Foundora',
+  project: row.projects?.name ?? 'FounderGrid',
   text: row.content ?? '',
   likes: row.likes ?? 0,
   comments: row.comments ?? 0,
@@ -665,7 +665,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
 
 // ─── Activity post row ────────────────────────────────────────────────────────
 const PROJECT_ACCENTS: Record<string, string> = {
-  Foundora: colors.Accent.blue,
+  FounderGrid: colors.Accent.blue,
   Inkwell: colors.Accent.violet,
   Pulse: colors.Accent.green,
 };

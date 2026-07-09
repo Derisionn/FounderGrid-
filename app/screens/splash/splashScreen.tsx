@@ -41,7 +41,7 @@ const SplashScreen = () => {
         }}
       >
         <Text style={[texts.heading.heading1, { color: colors.primary[600] }]}>
-          Foundora
+          FounderGrid
         </Text>
       </View>
     </SafeAreaView>

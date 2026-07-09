@@ -400,7 +400,7 @@ const SettingScreen = ({ navigation }: { navigation: NavigationProp<any> }) => {
           <Row icon="file-text" title="Bio & about" onPress={() => {}} />
           <Row icon="github" title="GitHub" rightText="github.com/anmol" onPress={() => {}} />
           <Row icon="twitter" title="X / Twitter" rightText="@anmol_codes" onPress={() => {}} />
-          <Row icon="globe" title="Website" rightText="foundora.app" onPress={() => {}} isLast />
+          <Row icon="globe" title="Website" rightText="foundergrid.app" onPress={() => {}} isLast />
         </Section>
 
         {/* ── Builder Preferences ── */}
@@ -521,7 +521,7 @@ const SettingScreen = ({ navigation }: { navigation: NavigationProp<any> }) => {
         {/* ── App version footer ── */}
         <View style={{ alignItems: 'center', marginTop: scale(8) }}>
           <Text style={{ fontSize: scale(11), color: TEXT_FAINT, fontWeight: '700' }}>
-            Foundora · v1.0.0
+            FounderGrid · v1.0.0
           </Text>
           <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: scale(4) }}>
             <Text style={{ fontSize: scale(10), color: TEXT_FAINT }}>

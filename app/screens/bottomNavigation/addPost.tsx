@@ -33,8 +33,8 @@ const SURFACE_BORDER = colors.Dark.border;
 const TEXT_DIM = colors.Dark.textFaint;
 const TEXT_FAINT = colors.Dark.textPlaceholder;
 const MAX_CHARS = 500;
-const DRAFT_KEY = '@foundora/post-draft';
-const ONBOARDING_KEY = '@foundora/post-onboarded';
+const DRAFT_KEY = '@foundergrid/post-draft';
+const ONBOARDING_KEY = '@foundergrid/post-onboarded';
 
 const PLACEHOLDERS = [
   'What did you build today?',
@@ -45,7 +45,7 @@ const PLACEHOLDERS = [
 ];
 
 const PROJECTS = [
-  { id: 'foundora', name: 'Foundora' },
+  { id: 'foundergrid', name: 'FounderGrid' },
   { id: 'side', name: 'Side Project' },
   { id: 'consult', name: 'Client Work' },
 ];
@@ -555,7 +555,7 @@ const AddPostScreen = () => {
       setPosting(false);
       return;
     }
-    // `project` here is a local slug (e.g. 'foundora'); real project_id will be
+    // `project` here is a local slug (e.g. 'foundergrid'); real project_id will be
     // populated once projects are fetched from Supabase. Send null for now.
     const { error } = await supabase.from('posts').insert({
       user_id: uid,

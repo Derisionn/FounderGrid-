@@ -31,7 +31,7 @@ const TEXT_FAINT = colors.Dark.textTrace;
 const STREAK_ORANGE = colors.Accent.streak;
 
 const SUBTITLES = [
-  'Foundora helps builders document progress publicly.',
+  'FounderGrid helps builders document progress publicly.',
   'Connect with other founders building in public.',
   'Personalize your startup journey.',
 ];

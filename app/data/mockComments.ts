@@ -15,7 +15,7 @@ export const POST_PREVIEW = {
   authorName: 'Anmol Singh',
   authorUsername: '@anmol',
   authorSeed: 'me',
-  project: 'Foundora',
+  project: 'FounderGrid',
   time: 'Today',
   text: 'Shipped the new Add Post screen. Auto-save drafts + mood selector working clean.',
   likes: 42,

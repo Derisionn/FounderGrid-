@@ -1,8 +1,8 @@
-# Foundora — What Makes It Unique
+# FounderGrid — What Makes It Unique
 
 > Companion to **[PROJECT_SCOPE.md](PROJECT_SCOPE.md)**.
 >
-> A feed app with likes and follows is a commodity — Twitter, Threads, and a dozen clones already exist. This document is the plan for the features that make Foundora *the* app for builders rather than another social network.
+> A feed app with likes and follows is a commodity — Twitter, Threads, and a dozen clones already exist. This document is the plan for the features that make FounderGrid *the* app for builders rather than another social network.
 >
 > **Effort key:** 🟢 small (≤1 day) · 🟡 medium (2–5 days) · 🔴 large (1–3+ weeks)
 >
@@ -18,7 +18,7 @@
 
 ## The Core Thesis
 
-Foundora wins if it owns one sentence: **"the place where builders show up every day to ship in public."** Three reinforcing loops make that defensible:
+FounderGrid wins if it owns one sentence: **"the place where builders show up every day to ship in public."** Three reinforcing loops make that defensible:
 
 1. **Habit loop** — streaks + daily prompts make posting a ritual, not a chore.
 2. **Accountability loop** — buddies, public goals, and challenges make quitting socially costly.
@@ -51,7 +51,7 @@ A horizontal rail at the top of [home.tsx](app/screens/bottomNavigation/home.tsx
 
 ## Bet 2 — Accountability That Other Apps Can't Copy 🔴 *(Accountability loop)*
 
-This is the emotional moat. Building alone is lonely; Foundora can manufacture accountability.
+This is the emotional moat. Building alone is lonely; FounderGrid can manufacture accountability.
 
 ### 2a. Accountability Buddies 🔴
 Weekly opt-in pairing with another builder of similar stage. Each day you tell each other what you'll ship.
@@ -72,7 +72,7 @@ Time-boxed group challenges: "#30DaysOfShipping", "Launch Week". Join → your s
 
 ## Bet 3 — Turn the Corpus Into a Tool 🔴 *(Knowledge loop)*
 
-Foundora accumulates two unique datasets: **founder timelines** and **builders' day-by-day lessons**. Most apps leave that as dead content. Make it queryable.
+FounderGrid accumulates two unique datasets: **founder timelines** and **builders' day-by-day lessons**. Most apps leave that as dead content. Make it queryable.
 
 ### 3a. "Where I am now" timeline overlay 🔴 *(signature feature)*
 On a founder's timeline ([FounderDetailScreen.tsx](app/screens/timeline/FounderDetailScreen.tsx)), overlay a marker for **the user's own age / years-building** against the founder's arc: *"At your age, Bezos was still 4 years from starting Amazon."*
@@ -86,10 +86,10 @@ Let users flag a post as a "lesson learned." Aggregate flagged posts into a sear
 
 ### 3c. Weekly Reflection (AI) 🟡
 Every Sunday, generate a private AI summary of the user's week: themes, mood patterns, wins. Optionally shareable.
-- **Why:** Builders want the benefits of journaling without journaling. Foundora already has the raw posts.
+- **Why:** Builders want the benefits of journaling without journaling. FounderGrid already has the raw posts.
 - **How:** Sunday cron → Edge Function → **Claude API** (`claude-opus-4-8` for quality, or `claude-haiku-4-5` for cost) over the week's posts → store summary → notify.
 
-### 3d. "Ask Foundora" AI Co-Founder 🔴
+### 3d. "Ask FounderGrid" AI Co-Founder 🔴
 A chat tab grounded in the lessons library + founder timelines. Ask *"should I raise or bootstrap?"* → get answers cited from real posts and founder moments.
 - **Why:** Turns content into a product. Highly differentiated, and it gets better as the corpus grows — a compounding moat.
 - **How:** Embed posts + founder content into a vector store (Supabase pgvector) → RAG → stream responses from the **Claude API** in a dedicated chat screen.
@@ -105,13 +105,13 @@ A chat tab grounded in the lessons library + founder timelines. Ask *"should I r
 | Accountability Buddies (2a) | Accountability | Emotional | 🔴 | High-conviction bet |
 | Public Goals (2b) | Accountability | Social proof | 🔴 | Pairs with buddies |
 | Lessons Library (3b) | Knowledge | Content/SEO | 🟡 | Quiet compounder |
-| Ask Foundora AI (3d) | Knowledge | Compounding | 🔴 | Later — needs corpus first |
+| Ask FounderGrid AI (3d) | Knowledge | Compounding | 🔴 | Later — needs corpus first |
 
 ---
 
 ## Supporting Features (raise the floor)
 
-These don't differentiate on their own, but their *absence* makes Foundora feel like a demo. Ship the cheap ones early.
+These don't differentiate on their own, but their *absence* makes FounderGrid feel like a demo. Ship the cheap ones early.
 
 | # | Feature | Screen | Effort |
 |---|---------|--------|--------|
@@ -140,7 +140,7 @@ Streak engine with freeze (1b), the "Yesterday you shipped…" prompt (1a), and 
 Ship the signature **"Where I am now" timeline overlay** (3a) and the **Lessons Library** (3b). Then bet big on **Accountability Buddies** (2a) + **Public Goals** (2b).
 
 **Phase 4 — Make it compound (later)**
-**Weekly Reflection** (3c) and **Ask Foundora** (3d), once there's enough corpus to make the AI genuinely useful.
+**Weekly Reflection** (3c) and **Ask FounderGrid** (3d), once there's enough corpus to make the AI genuinely useful.
 
 ---
 
