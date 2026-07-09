@@ -12,6 +12,10 @@
 
 ---
 
+
+
+
+
 ## The Core Thesis
 
 Foundora wins if it owns one sentence: **"the place where builders show up every day to ship in public."** Three reinforcing loops make that defensible:
