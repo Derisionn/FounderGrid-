@@ -18,9 +18,7 @@ import { avatarFor } from '../../helpers/avatars';
 import PushNotificationIcon from '../../../assets/icons/PushNotifcationIcon';
 import { Lucide } from '@react-native-vector-icons/lucide';
 
-if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
+
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const BG = colors.Dark.bg;

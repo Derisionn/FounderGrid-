@@ -17,9 +17,7 @@ import { scale } from '../../helpers/scaler';
 import { colors } from '../../styles/colors';
 import { ME_AVATAR, avatarFor } from '../../helpers/avatars';
 
-if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
+
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const BG = colors.Dark.bg;

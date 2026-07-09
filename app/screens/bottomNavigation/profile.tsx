@@ -28,9 +28,7 @@ import { ME_AVATAR } from '../../helpers/avatars';
 import { PROFILE, PROJECTS, RECENT_POSTS } from '../../../assets/staticData/staticData';
 import { supabase, getUserId } from '../../lib/supabase';
 
-if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
+
 
 // ─── Live data: types, mappers, fallbacks ─────────────────────────────────────
 type Project = (typeof PROJECTS)[number];

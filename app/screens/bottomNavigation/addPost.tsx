@@ -23,12 +23,7 @@ import { ME_AVATAR } from '../../helpers/avatars';
 import { Lucide } from '@react-native-vector-icons/lucide';
 import { useTabBarSpace } from '../../components/navigation/CustomTabBar';
 
-if (
-  Platform.OS === 'android' &&
-  UIManager.setLayoutAnimationEnabledExperimental
-) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
+
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const ACCENT = colors.Accent.blue;

@@ -18,9 +18,7 @@ import { colors } from '../../styles/colors';
 import { avatarFor } from '../../helpers/avatars';
 import { CONVERSATIONS, ACTIVE_NOW, Conversation } from '../../data/mockMessages';
 
-if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
+
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const BG = colors.Dark.bg;
