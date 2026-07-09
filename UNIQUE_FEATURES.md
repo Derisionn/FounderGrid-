@@ -8,6 +8,8 @@
 >
 > Each feature lists **Why it's a moat**, **How to build it**, and how it ties into the existing screens.
 
+
+
 ---
 
 ## The Core Thesis
